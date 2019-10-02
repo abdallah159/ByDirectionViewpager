@@ -23,4 +23,9 @@ var mTabsAdapter = RTLPagerAdapter(supportFragmentManager, mTabs, true)
 ```` 
 
 #### Libirary is designed and developed by 
-### [Code95](https://github.com/Code95) Mobile Team.
+### [Code95](https://github.com/Code95) Mobile Team. 
+
+[![Code95][1]][2]
+
+[1]:  https://code95.com/wp-content/uploads/code95-logo-small.png
+[2]:  https://code95.com/
