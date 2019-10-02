@@ -11,5 +11,5 @@ dependencies {
 }
 ```
 
-![alt tag](https%3A%2F%2Fgiphy.com%2Fembed%2FckqrSE722Y9wBhFpAv)
-![alt tag](http://i.imgur.com/Ogruyjj.gif)
+![alt tag](https://media.giphy.com/media/ckqrSE722Y9wBhFpAv/giphy.gif)
+![alt tag](https://media.giphy.com/media/ckqrSE722Y9wBhFpAv/giphy.gif)
