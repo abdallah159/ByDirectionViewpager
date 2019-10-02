@@ -12,4 +12,14 @@ dependencies {
 ```
 
 ![alt tag](https://media.giphy.com/media/ckqrSE722Y9wBhFpAv/giphy.gif)
-![alt tag](https://media.giphy.com/media/ckqrSE722Y9wBhFpAv/giphy.gif)
+![alt tag](https://media.giphy.com/media/l1ZRIDLrCk9UedMWvP/giphy.gif)
+
+
+### How to use
+Send `isRtlOriented` = ``true or false`` to the ``RTLPagerAdapter`` as a parameter.
+
+````
+var mTabsAdapter = RTLPagerAdapter(supportFragmentManager, mTabs, true)
+```` 
+
+### Libirary is designed and developed by @Code95 Mobile Team.
