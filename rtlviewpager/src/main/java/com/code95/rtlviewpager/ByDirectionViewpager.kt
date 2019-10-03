@@ -5,18 +5,11 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.viewpager.widget.ViewPager
 
-class ByDirectionViewpager constructor(context: Context, attrs: AttributeSet? = null) :
+class ByDirectionViewpager(context: Context, attrs: AttributeSet? = null) :
     ViewPager(context, attrs) {
 
-    private var mIsRtlOriented: Boolean = false
-
-    fun setRtlOriented(isRtlOriented: Boolean) {
-        mIsRtlOriented = isRtlOriented
-        currentItem = if (mIsRtlOriented && adapter != null) {
-            adapter!!.count - 1
-        } else {
-            0
-        }
+    init {
+        tag = "BiPager"
     }
 
     override fun setLayoutDirection(layoutDirection: Int) {
